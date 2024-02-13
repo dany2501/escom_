@@ -1,0 +1,125 @@
+[{
+  "_id": {
+    "$oid": "61a56e10328087ef1cb53e88"
+  },
+  "nombre": "Daniel",
+  "apellido_paterno": "Hernández",
+  "apellido_materno": "Cárdenas",
+  "email": "dany2501.dhn@gmail.com",
+  "password": "$2a$10$zltrKV4IvgWuuPYHZOzgS.PrdIoDDfCU9JvllSJGof2eN55Pv9vEC",
+  "semestre": 2,
+  "sexo": "Masculino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ad4e741d9df19bd8aea3ae"
+  },
+  "nombre": "Miguel",
+  "apellido_paterno": "López",
+  "apellido_materno": "Ruiz",
+  "email": "miguel@gmail.com",
+  "password": "$2a$10$AhzGqKjhw8lJEHg87Fn/4elUVfla/PIn3u91rPfBo6PoKUD1B1zUi",
+  "semestre": 2,
+  "sexo": "Masculino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ad68c47afd01d4c009304a"
+  },
+  "nombre": "Jonathan",
+  "apellido_paterno": "Pacheco",
+  "apellido_materno": "Pérez",
+  "email": "tatan@gmail.com",
+  "password": "$2a$10$UahRVeejZKtFtBWaL4L55OwBVH3velycdVWvqfB7KJ1qs8UYHh.ia",
+  "semestre": 2,
+  "sexo": "Masculino",
+  "__v": 0,
+  "gitUser": "dany2501",
+  "videoURL": "ZkUHfM1U-A0"
+},{
+  "_id": {
+    "$oid": "61b258f60ab4d8f839739dc7"
+  },
+  "nombre": "Daniel",
+  "apellido_paterno": "Hernández",
+  "apellido_materno": "Cárdenas",
+  "email": "dannny2501.dhn@gmail.com",
+  "password": "$2a$10$lRYUmdul3UmgeGOFonwU9e6uJJTm3i0WL/DpTj4N8z8NYfMVt/Kiy",
+  "semestre": "Quinto",
+  "sexo": "Masculino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b25b600ab4d8f839739dcd"
+  },
+  "nombre": "Daniel",
+  "apellido_paterno": "Hernández",
+  "apellido_materno": "Cárdenas",
+  "email": "dannnny2501.dhn@gmail.com",
+  "password": "$2a$10$v15YEt0TqfkkFdwoClqEPuDVdyeMAYavCeVBXNC3FNh.XF7oEa.aK",
+  "semestre": "Primero",
+  "sexo": "Femenino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b2602afb9c6785aba9b176"
+  },
+  "nombre": "Pedro",
+  "apellido_paterno": "Rodriguez",
+  "apellido_materno": "Juarez",
+  "email": "pedrito@gmail.com",
+  "password": "$2a$10$mw7AOExtBbapwJ2eHoGO.eMqG03oP4zEEZE09LeXp7DlGIhgPjyl2",
+  "semestre": "séptimo",
+  "sexo": "Masculino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b260abab5218b4d147f082"
+  },
+  "nombre": "Sergio",
+  "apellido_paterno": "Perez",
+  "apellido_materno": "Hernandez",
+  "email": "sergio@gmail.com",
+  "password": "$2a$10$yTg3J2HomUcNvarzOqM7g.jC.bq7ePgN3bgWqaSCGIrIfqRi5nqJW",
+  "semestre": "octavo",
+  "sexo": "Masculino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b2627c7780a2357ad74cf5"
+  },
+  "nombre": "Daniel",
+  "apellido_paterno": "Hernández",
+  "apellido_materno": "Cárdenas",
+  "email": "maestra@gmail.com",
+  "password": "$2a$10$8TzRwE17z2BQNs.rxYJG8.JAtkG2eIOlRh9qX9ThfTkDIzbJlIPpm",
+  "semestre": "tercero",
+  "sexo": "Masculino",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b264f05302102ceeb6d1ca"
+  },
+  "nombre": "Maestra",
+  "apellido_paterno": "Cancino",
+  "apellido_materno": "Perez",
+  "email": "maestra2@gmail.com",
+  "password": "$2a$10$ewQAzNrsuWhwwcFGXxBSN.obJ7aoFhzbbG1uBpGohB6yOETj.UyiC",
+  "semestre": "Primero",
+  "sexo": "Femenino",
+  "telefono": "5510638023",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b264fd184352f47b56a289"
+  },
+  "nombre": "Maestra",
+  "apellido_paterno": "Cancino",
+  "apellido_materno": "Perez",
+  "email": "maestra3@gmail.com",
+  "password": "$2a$10$JJzA.6AdNLfxqEXN58X6w.bJL1N9yUzOOqVwJk3IgmHMlxVD0dOZK",
+  "semestre": "Primero",
+  "sexo": "Femenino",
+  "telefono": "5510638023",
+  "__v": 0
+}]

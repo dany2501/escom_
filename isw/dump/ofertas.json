@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "61aeefcda3b3cf4c404450f4"
+  },
+  "empresa": {
+    "$oid": "61ad6b030d9e4eef5b177b50"
+  },
+  "titulo": "Primera prueba de oferta",
+  "descripcion": "Esta es la primera oferta que se realiza en este sitio web.",
+  "puesto": "SCRUM Master",
+  "sueldo": "200000",
+  "created_at": {
+    "$date": "2021-12-07T05:23:25.264Z"
+  },
+  "updated_at": {
+    "$date": "2021-12-07T06:37:28.650Z"
+  },
+  "__v": 0,
+  "deleted_at": {
+    "$date": "2021-12-07T06:37:28.650Z"
+  }
+},{
+  "_id": {
+    "$oid": "61af02ce7dd67cbb477fc4d7"
+  },
+  "empresa": {
+    "$oid": "61ad6b030d9e4eef5b177b50"
+  },
+  "titulo": "Buscamos programador front-end",
+  "descripcion": "Estamos en busca de un programador enfocado principalmente en el area del front-end, si te interesa, aplica a esta vacante!!!",
+  "puesto": "Programador Front-End",
+  "sueldo": "10000",
+  "created_at": {
+    "$date": "2021-12-07T06:44:30.853Z"
+  },
+  "updated_at": {
+    "$date": "2021-12-07T06:44:30.853Z"
+  },
+  "__v": 0
+}]

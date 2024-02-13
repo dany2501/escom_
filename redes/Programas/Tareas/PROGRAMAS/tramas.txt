@@ -1,0 +1,72 @@
+
+	Trama numero 2 respondio
+
+00 f4 8d 76 0a 93 94 8f cf 95 f1 f5 08 06 00 01 
+08 00 06 04 00 02 94 8f cf 95 f1 f5 c0 a8 00 01 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 6
+
+
+	Trama numero 3 respondio
+
+00 f4 8d 76 0a 93 f4 f5 e8 47 49 e4 08 06 00 01 
+08 00 06 04 00 02 f4 f5 e8 47 49 e4 c0 a8 00 02 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 60
+
+
+	Trama numero 4 respondio
+
+00 f4 8d 76 0a 93 5c f7 e6 25 a5 b9 08 06 00 01 
+08 00 06 04 00 02 5c f7 e6 25 a5 b9 c0 a8 00 03 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 33
+
+
+	Trama numero 5 respondio
+
+00 f4 8d 76 0a 93 54 13 79 80 05 b1 08 06 00 01 
+08 00 06 04 00 02 54 13 79 80 05 b1 c0 a8 00 04 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 100
+
+
+	Trama numero 8 respondio
+
+00 f4 8d 76 0a 93 4c 91 0c 3b 8d 35 08 06 00 01 
+08 00 06 04 00 02 4c 91 0c 3b 8d 35 c0 a8 00 07 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 113
+
+
+	Trama numero 12 respondio
+
+00 f4 8d 76 0a 93 50 5b c2 b7 9d 47 08 06 00 01 
+08 00 06 04 00 02 50 5b c2 b7 9d 47 c0 a8 00 0b 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 46
+
+
+	Trama numero 14 respondio
+
+00 f4 8d 76 0a 93 e4 2b 34 1c fe c4 08 06 00 01 
+08 00 06 04 00 02 e4 2b 34 1c fe c4 c0 a8 00 0d 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 110
+
+
+	Trama numero 254 respondio
+
+00 f4 8d 76 0a 93 00 00 ca 01 02 03 08 06 00 01 
+08 00 06 04 00 02 00 00 ca 01 02 03 c0 a8 00 fd 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 14
+

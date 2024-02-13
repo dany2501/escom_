@@ -1,0 +1,64 @@
+import java.io.*;
+import java.net.*;
+
+public class MulticastChat {
+
+    public static void main(String[] args) {
+        
+        //Se verifica que se haya pasado un parámetro con el nombre del usuario
+        if(args.length == 0){
+            System.out.println("Debe pasar como parámetro el nombre de usuario.");
+            System.exit(1);
+        }
+        
+        //Se obtiene el nombre de usuario pasado como parámetro
+        String nombre_usuario = args[0];
+        
+        try{
+            
+            //Se une el socket al grupo de multicast identificado por la dirección IP 239.0.0.0
+            InetSocketAddress grupo = new InetSocketAddress(InetAddress.getByName("239.0.0.0"), 50000);
+            NetworkInterface netInter = NetworkInterface.getByName("em1");
+            MulticastSocket socket = new MulticastSocket(50000);
+            socket.joinGroup(grupo,netInter);
+            
+            //Se crea un thread que recibirá los mensajes del resto de los nodos
+            Thread thread = new Thread(new Runnable(){
+                @Override
+                public void run() {
+                    byte[] buffer = new byte[1000];
+                    while(true){
+                        DatagramPacket mensaje = new DatagramPacket(buffer, buffer.length);
+                        try{
+                            socket.receive(mensaje);
+                            String mensaje_recibido = new String(mensaje.getData(), 0, mensaje.getLength());
+                            System.out.println(mensaje_recibido);
+                        }catch(IOException ex){
+                            System.err.println("Error al recibir mensaje: " + ex.getMessage());
+                        }
+                    }
+                }
+            });
+            thread.start();
+            
+            //Se inicia el ciclo infinito de lectura y envío de mensajes
+            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+            while(true){
+                //Se muestra el prompt para escribir el mensaje
+                System.out.print("Escribe tu mensaje: ");
+                String mensaje_ingresado = entrada.readLine();
+                
+                //Se crea el datagrama con el mensaje a enviar
+                byte[] buffer = (nombre_usuario + " ---> " + mensaje_ingresado).getBytes();
+                DatagramPacket mensaje = new DatagramPacket(buffer, buffer.length, InetAddress.getByName("239.0.0.0"), 50000);
+                
+                //Se envía el mensaje al grupo de multicast
+                socket.send(mensaje);
+            }
+            
+        }catch(IOException ex){
+            System.err.println("Error al crear socket: " + ex.getMessage());
+        }
+        
+    }
+}

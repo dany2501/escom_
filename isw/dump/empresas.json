@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "61a518395f4f88f29cc7fa2f"
+  },
+  "name": "Aurantisoft",
+  "rfc": "HECD010225NF5",
+  "email": "empresa@empresa.com",
+  "password": "$2a$10$h6UwPU9moHtyErnJHni9pufsBd51RHjcxu6TtFi7EYevs.Hi/GdC.",
+  "created_at": {
+    "$date": "2021-11-29T18:13:13.805Z"
+  },
+  "updated_at": {
+    "$date": "2021-11-29T23:37:21.789Z"
+  },
+  "__v": 0,
+  "deleted_at": {
+    "$date": "2021-11-29T23:37:21.789Z"
+  }
+},{
+  "_id": {
+    "$oid": "61ad4eb61d9df19bd8aea3b3"
+  },
+  "name": "Empresa de prueba",
+  "rfc": "HECD010225NF3",
+  "email": "prueba@empresa.com",
+  "password": "$2a$10$kbEw/rt0L7l2o4S.q6W0quuNFx7HU5lJ3iWsaIeI8dJB/bHmhpNKW",
+  "created_at": {
+    "$date": "2021-12-05T23:43:50.684Z"
+  },
+  "updated_at": {
+    "$date": "2021-12-05T23:43:50.684Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ad6b030d9e4eef5b177b50"
+  },
+  "name": "Empresa de prueba",
+  "rfc": "HECD010225NF3",
+  "email": "pruebaEmpresa@empresa.com",
+  "password": "$2a$10$JWFj9p0YWt.NuKvZQsedC.TLVBwzKoMNRZhQ4peS.FM.d0QEsqgOu",
+  "created_at": {
+    "$date": "2021-12-06T01:44:35.004Z"
+  },
+  "updated_at": {
+    "$date": "2021-12-06T01:44:35.004Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b2666815fddc8453a92299"
+  },
+  "nombre": "Empresa de prueba",
+  "rfc": "HECD010225NF3",
+  "email": "empresatest1@gmail.com",
+  "password": "$2a$10$XPXXy1t1Mw2J79iMtTRiRe4Ihyh/XJORGtUWLcPt.G8aVSCGN8CUu",
+  "created_at": {
+    "$date": "2021-12-09T20:26:16.748Z"
+  },
+  "updated_at": {
+    "$date": "2021-12-09T20:26:16.748Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,36 @@
+
+	Trama numero 2 respondio
+
+00 f4 8d 76 0a 93 94 8f cf 95 f1 f5 08 06 00 01 
+08 00 06 04 00 02 94 8f cf 95 f1 f5 c0 a8 00 01 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 7
+
+
+	Trama numero 3 respondio
+
+00 f4 8d 76 0a 93 f4 f5 e8 47 49 e4 08 06 00 01 
+08 00 06 04 00 02 f4 f5 e8 47 49 e4 c0 a8 00 02 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 23
+
+
+	Trama numero 5 respondio
+
+00 f4 8d 76 0a 93 54 13 79 80 05 b1 08 06 00 01 
+08 00 06 04 00 02 54 13 79 80 05 b1 c0 a8 00 04 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 104
+
+
+	Trama numero 254 respondio
+
+00 f4 8d 76 0a 93 00 00 ca 01 02 03 08 06 00 01 
+08 00 06 04 00 02 00 00 ca 01 02 03 c0 a8 00 fd 
+00 f4 8d 76 0a 93 c0 a8 00 0a 
+
+Tiempo de respuesta: 4
+

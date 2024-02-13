@@ -1,0 +1,12 @@
+//Ejemplo de como se debe de crear un nuevo modulo
+{
+    id: 2,
+    name: 'Usuarios', //Parametrizar el nombre del modulo
+    icon: MinusSmallIcon,//Mantener el icono generico
+    current: true,
+    paths: ['/clients/create', '/clients/get'], //Parametrizar las rutas del modulo
+    children: [
+        { id: 1, name: 'Ver', current: true, route: '/clients/get', paths: ['/clients/get'], superuser: true}, //Rutas del modelo
+    ],
+    general : false // ¿Es de uso general?
+}
